@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: web-config
+  namespace: test-argo-cd
+data:
+  nginx-index.html: |
+    Ini tampilan dari NGINX dan nama saya Abdullah Wira Almausa
+  httpd-index.html: |
+    Ini tampilan dari HTTPD dan nama saya Abdullah Wira Almausa
